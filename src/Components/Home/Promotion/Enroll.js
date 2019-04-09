@@ -133,4 +133,4 @@ class Enroll extends Component {
         )
     }
 }
-export default Enroll
+export default Enroll;
