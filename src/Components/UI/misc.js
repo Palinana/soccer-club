@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export const Tag = (props) => {
-    const template = <div
+    const template = <div className="tag"
         style={{
             background: props.bck,
             fontSize: props.size,

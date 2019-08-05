@@ -17,7 +17,7 @@ class Navbar extends Component {
 
                     <Link to="/team"><Button className="header-navigation__link">Team</Button></Link>
                     <Link to="/matches"><Button className="header-navigation__link">Matches</Button></Link>
-
+                    <Link to="/dashboard"><Button className="header-navigation__link">Admin</Button></Link>
                 </Toolbar>
             </AppBar>
         )

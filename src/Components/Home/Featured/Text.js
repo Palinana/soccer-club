@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { easePolyOut } from 'd3-ease';
 import Animate from 'react-move/Animate';
-import FeaturedPlayer from '../../../Resources/images/Messi.png'
+import FeaturedPlayer from '../../../Resources/images/Messi.png';
 
 class Text extends Component {
 
@@ -110,7 +110,7 @@ class Text extends Component {
                         style={{
                             opacity,
                             background: `url(${FeaturedPlayer})`,
-                            transform: `translate(590px, 30px)`
+                            transform: `translate(575px, 30px)`
                         }}
                     >
                     </div>
@@ -121,11 +121,20 @@ class Text extends Component {
 
     render() {
         return (
-            <div className="featured-text">
-                {this.animatePlayer()}
-                {this.animateNumber()}
-                {this.animateFirst()}
-                {this.animateSecond()}
+            <div>
+                <div className="featured-text">
+                    {this.animatePlayer()}
+                    {this.animateNumber()}
+                    {this.animateFirst()}
+                    {this.animateSecond()}
+                </div>
+                <div className="featured-text-small">
+                    <ul>
+                        <li>3</li>
+                        <li>League</li>
+                        <li>Champrionships</li>
+                    </ul>
+                </div>
             </div>
         )
     }

@@ -10,8 +10,11 @@ const Matches = () => {
                     bck="#781034"
                     size="50px"
                     color="#ffffff"
+                    className="home-matches__tag"
                 >
-                    Matches
+                    <div>
+                        Matches
+                    </div>
                 </Tag>
                 <Blocks />
                 <Tag
